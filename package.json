@@ -2,6 +2,10 @@
   "name": "bun-bug",
   "module": "index.ts",
   "type": "module",
+  "scripts": {
+    "lint": "bun run eslint:run",
+    "eslint:run": "bun x eslint . --ext .ts"
+  },
   "devDependencies": {
     "bun-types": "latest"
   },
